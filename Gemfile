@@ -75,3 +75,7 @@ source 'https://rails-assets.org' do
 end
 
 gem 'simple_form'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
