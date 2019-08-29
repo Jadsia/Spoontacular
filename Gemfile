@@ -85,3 +85,5 @@ gem 'figaro'
 gem 'unirest'
 
 gem 'carrierwave', '~> 1.0'
+
+
