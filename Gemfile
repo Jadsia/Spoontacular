@@ -61,7 +61,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'faraday'
+gem 'faraday', '~> 0.15.4'
 
 gem 'devise'
 
@@ -79,3 +79,9 @@ gem 'simple_form'
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
 end
+
+gem 'figaro'
+
+gem 'unirest'
+
+gem 'carrierwave', '~> 1.0'
