@@ -20,10 +20,13 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+            <%= link_to 'Home', root_path, class: 'navbar-brand' %>
+
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#"></a>
+            <%= link_to 'About', about_path, class: 'navbar-brand' %>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sign in</a>
@@ -33,6 +36,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sign out</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+              <%= link_to 'Post a Recipe', new_recipes_path, class: 'navbar-brand' %>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
