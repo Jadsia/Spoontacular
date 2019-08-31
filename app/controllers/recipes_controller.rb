@@ -3,6 +3,15 @@ class RecipesController < ApplicationController
 
   def index
    @recipes = Recipe.all
+   puts "in index method"
+   SearchrecipeController.new.searchbyingredient
+   # also need to add code to show API index
+   # returns array of objects {[]}
+  end
+
+  def show
+    @recipes = Recipe.find(params[:id])
+    #check with tutor
   end
 
   def new
@@ -19,5 +28,10 @@ class RecipesController < ApplicationController
   def recipe_params
     params.require(:recipe).permit(:name, :ingredients, :directions)
   end
+
+  #works for all search functions?
+  #def query
+    #params.fetch(:query, {})
+  #end
 
 end
