@@ -11,7 +11,10 @@ class RecipesController < ApplicationController
 
   def show
     @recipes = Recipe.find(params[:id])
-    #check with tutor
+  end
+
+  def searchwine
+    SearchrecipeController.new.searchwinepairing
   end
 
   def new
