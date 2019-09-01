@@ -13,9 +13,47 @@ class RecipesController < ApplicationController
     @recipes = Recipe.find(params[:id])
   end
 
+  def searchbyingredient
+    SearchrecipeController.new.searchbyingredient
+  end
+
   def searchwine
     SearchrecipeController.new.searchwinepairing
   end
+
+  def searchvideo
+    SearchrecipeController.new.searchvideo
+  end
+
+  def convertunits
+    SearchrecipeController.new.convertunits
+  end
+
+  def searchcalories
+    SearchrecipeController.new.searchcalories
+  end
+
+  def searchrecipeid
+    SearchrecipeController.new.searchrecipeid
+  end
+
+  def getfoodtrivia
+    SearchrecipeController.new.getfoodtrivia
+  end
+
+  def quickanswer
+    SearchrecipeController.new.quickanswer
+  end
+
+  def searchnutritioninfo
+    SearchrecipeController.new.searchnutritioninfo
+  end
+
+  def searchfoodname
+    SearchrecipeController.new.searchfoodname
+  end
+
+  def
 
   def new
     @recipe = Recipe.new
