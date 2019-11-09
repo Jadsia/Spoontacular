@@ -34,16 +34,16 @@ Deploy: https://spoontacular-myoung.herokuapp.com/
 ## Clone this Repository
 https://github.com/Jadsia/Spoontacular 
 
-Navigate to Directory
+* Navigate to Directory
  
-Cd [name of project]
-Create, migrate and seed the database
-$ rails db:create
-$ rails db:migrate
-$ rake db:seed
+ * Cd [name of project]
+* Create, migrate and seed the database
+    * $ rails db:create
+    * $ rails db:migrate
+    * $ rake db:seed
  
-Start local server
-$ rails server
+* Start local server
+    * $ rails server
 
  
 ## Support
