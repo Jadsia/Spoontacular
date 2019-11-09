@@ -1,12 +1,17 @@
-Project Purpose
+# Spoontacular
+*fancier than the official*
+
+## Project Purpose
  
-Project Requirements
+ Capstone project for the Sping 2019 UC Berkeley Full Stack Bootcamp. Individual project
  
-Notes and/or link to git project page
-Link to live
-Media
+## Project Requirements
  
-Screenshots or videos
+ * Uses at least one API
+ * Hosted on Heroku
+
+Deploy: https://spoontacular-myoung.herokuapp.com/
+ 
  
 Features
  
