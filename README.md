@@ -11,37 +11,29 @@
  * Hosted on Heroku
 
 Deploy: https://spoontacular-myoung.herokuapp.com/
+
+![Spoontacular screen](https://user-images.githubusercontent.com/48420271/68522148-f6422c00-025c-11ea-9e8b-e7f3a59587ad.JPG)
+
  
+## Features
  
-Features
+* User authentication
+* API calls
+* Searchable
+* Recipe posting/storage
  
-·       List
+## Software Requirements
  
-Software Requirements
+* Rails v. 5.0.0
+* Ruby v. 2.6.3
+* PostgreSQL
+* HTML
+* CSS
+
  
-List software versions
-Rails v.
-Ruby v.
-PostgreSQL v.
-VS code?
-JS v.
-HTML
-CSS
- 
-Create Account in GitHub and Heroku
- 
-Link github sign up
-Link Heroku sign up
- 
-Configure Heroku
-Keys??
- 
-Test
-Instructions
- 
-Clone this Repository
-Link e.g. git clone git@github.com:clarkngo/curriculum.git
- 
+## Clone this Repository
+https://github.com/Jadsia/Spoontacular 
+
 Navigate to Directory
  
 Cd [name of project]
@@ -52,15 +44,12 @@ $ rake db:seed
  
 Start local server
 $ rails server
+
  
-Production Deployment
-$ git push heroku master
-$ heroku run rake db:migrate
- 
-Support
+## Support
 Bug reports and feature requests can be filed with the rest for the Ruby on Rails project here:
 Link to “issues” on github
  
-Copyright
+## Copyright
 copyright:: (c) Copyright 2019 Megan Young. All Rights Reserved.
 
